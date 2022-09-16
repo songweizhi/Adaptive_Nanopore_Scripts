@@ -31,12 +31,12 @@ def msa_to_distance_matrix(msa_file, msa_format):
 
 ########################################################################################################################
 
-mpileup_file    = '/Users/songweizhi/Desktop/demo.mpileup'
-window_size     = 5000
-min_var_num     = 5
-min_var_pct     = 20
-txt_out_folder  = '/Users/songweizhi/Desktop/demo'
-msa_format      = 'fasta'
+mpileup_file   = '/Users/songweizhi/Desktop/demo.mpileup'
+window_size    = 5000
+min_var_num    = 5
+min_var_pct    = 20
+txt_out_folder = '/Users/songweizhi/Desktop/demo'
+msa_format     = 'fasta'
 
 ########################################################################################################################
 
