@@ -5,11 +5,11 @@ mpl.use('Agg')
 import matplotlib.pyplot as plt
 
 
-linkage_txt = '/Users/songweizhi/Desktop/linkages.txt'
-plot_network = True
-node_size = 6
+linkage_txt     = '/Users/songweizhi/Desktop/linkages.txt'
+plot_network    = True
+node_size       = 6
 label_font_size = 6
-output_plot = '/Users/songweizhi/Desktop/linkages.png'
+output_plot     = '/Users/songweizhi/Desktop/linkages.png'
 
 
 # initialize a graph

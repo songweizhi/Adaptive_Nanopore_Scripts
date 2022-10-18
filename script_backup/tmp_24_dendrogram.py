@@ -3,6 +3,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import squareform
 import matplotlib.pyplot as plt
 
+
 dm_file = '/Users/songweizhi/Desktop/demo/op_dir/distance_matrix/dm.1.tab'
 
 label_list = []
@@ -26,5 +27,3 @@ print(label_list)
 dendrogram(linkage_matrix, orientation='left', labels=label_list, leaf_rotation=0, leaf_font_size=6)
 plt.title("test")
 plt.show()
-
-
